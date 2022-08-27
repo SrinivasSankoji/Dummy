@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions;
 
 public class TestCaseOne {
 
-	int x = 25;
+	int x = 36;
 
 	/**
 	 * Test Case using JUnit4 

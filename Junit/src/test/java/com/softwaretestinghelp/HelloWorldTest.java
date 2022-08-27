@@ -7,7 +7,9 @@ import org.junit.jupiter.api.Test;
 
 public class HelloWorldTest {
 
+	
 	@Test
+	@Disabled
 	public void test() {
 		assertEquals("Hello world", "Hello world");
 	}
