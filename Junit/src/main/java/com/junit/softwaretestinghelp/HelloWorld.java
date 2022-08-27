@@ -1,4 +1,4 @@
-package com.softwaretestinghelp;
+package com.junit.softwaretestinghelp;
 
 import lombok.Data;
 
@@ -10,6 +10,9 @@ public class HelloWorld {
 	public HelloWorld(String message) {
 		super();
 		this.message = message;
+	}
+
+	public HelloWorld() {
 	}
 	
 }

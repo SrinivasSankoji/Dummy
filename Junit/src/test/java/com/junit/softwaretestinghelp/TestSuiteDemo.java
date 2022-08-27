@@ -1,4 +1,4 @@
-package com.softwaretestinghelp;
+package com.junit.softwaretestinghelp;
 
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;

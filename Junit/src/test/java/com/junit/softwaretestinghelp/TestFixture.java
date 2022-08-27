@@ -1,4 +1,4 @@
-package com.softwaretestinghelp;
+package com.junit.softwaretestinghelp;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;

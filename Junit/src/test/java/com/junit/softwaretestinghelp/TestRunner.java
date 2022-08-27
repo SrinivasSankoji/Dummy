@@ -1,4 +1,4 @@
-package com.softwaretestinghelp;
+package com.junit.softwaretestinghelp;
 
 public class TestRunner {
 

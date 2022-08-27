@@ -1,4 +1,4 @@
-package com.javabydeveloper.testsuite;
+package com.junit.javabydeveloper.testsuite;
 
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.platform.suite.api.SelectPackages;
