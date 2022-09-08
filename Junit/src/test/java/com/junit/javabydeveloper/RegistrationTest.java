@@ -1,4 +1,4 @@
-package com.junit.javabydeveloper.registration;
+package com.junit.javabydeveloper;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;

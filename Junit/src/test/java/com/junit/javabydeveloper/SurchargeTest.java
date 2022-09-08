@@ -1,4 +1,4 @@
-package com.junit.javabydeveloper.payment;
+package com.junit.javabydeveloper;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Tag;
