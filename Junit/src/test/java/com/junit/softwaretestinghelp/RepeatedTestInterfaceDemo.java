@@ -8,7 +8,7 @@ import org.junit.jupiter.api.TestInfo;
 
 public class RepeatedTestInterfaceDemo {
 
-	@RepeatedTest(value = 2)
+	@RepeatedTest(value = 2,name = RepeatedTest.LONG_DISPLAY_NAME)
 	@DisplayName("Interface Methods")
 	@Tag("Annotations")
 	public void interfaceDemo(TestInfo testInfo,RepetitionInfo repetitionInfo,RepeatedTest repeatedTest)
