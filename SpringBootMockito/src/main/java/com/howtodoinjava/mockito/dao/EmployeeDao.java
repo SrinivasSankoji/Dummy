@@ -27,9 +27,10 @@ public class EmployeeDao {
 		return DB.get(id);
 	}
 
-	public void addEmployee(EmployeeVO employee) {
+	public boolean addEmployee(EmployeeVO employee) {
 		employee.setEmployeeId(DB.keySet().size() + 1);
 		DB.put(employee.getEmployeeId(), employee);
+		return true;
 	}
 
 	public void updateEmployee(EmployeeVO employee) {
