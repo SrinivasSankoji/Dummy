@@ -27,7 +27,7 @@ class EmployeeControllerTest {
 	EmployeeDao employeeDao;
 
 	@Test
-	public void testAddEmployee() {
+	public void addEmployeeTest() {
 		MockHttpServletRequest request = new MockHttpServletRequest();
 		RequestContextHolder.setRequestAttributes(new ServletRequestAttributes(request));
 
@@ -39,4 +39,5 @@ class EmployeeControllerTest {
 		assertThat(responseEntity.getStatusCodeValue()).isEqualTo(201);
 		assertThat(responseEntity.getHeaders().getLocation().getPath()).isEqualTo("/1");
 	}
+
 }
