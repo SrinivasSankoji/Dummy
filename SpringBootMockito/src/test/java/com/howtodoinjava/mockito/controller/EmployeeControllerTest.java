@@ -27,6 +27,11 @@ class EmployeeControllerTest {
 	EmployeeDao employeeDao;
 
 	@Test
+	public void getEmployeesTest() {
+
+	}
+
+	@Test
 	public void addEmployeeTest() {
 		MockHttpServletRequest request = new MockHttpServletRequest();
 		RequestContextHolder.setRequestAttributes(new ServletRequestAttributes(request));

@@ -24,6 +24,7 @@ class PostControllerTest {
 		mockMvc.perform(get("/post/1")).andDo(print()).andExpect(status().isOk());
 	}
 
+	@Test
 	void getPostAcceptsOnlyGetTest() throws Exception {
 		mockMvc.perform(post("/post/1)")).andDo(print()).andExpect(status().isMethodNotAllowed());
 	}
